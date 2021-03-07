@@ -46,7 +46,7 @@ class linkedList:
             while length <= self._size :
                 length+=1
             print(p._element)
-    '''Adding Any Position Insertion Operation '''
+    '''Adding Any Position Insertion Operation (works well for insertion at the end too!!! '''
     def addAnyPosition(self,e,pos):
         newnode=_Node(e,None)
         length=1
